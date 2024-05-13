@@ -96,6 +96,15 @@ aka config / cfg / ini file: system name `jinja-properties`.
 
 Default file associations: `.properties.j2`, `.cfg.j2`, `.conf.j2`, `.desktop.j2`, `.directory.j2` and `.ini.j2`.
 
+### Jinja R
+
+Jinja latex templates: system name `jinja-r`.
+
+Jinja's default syntax does not play nicely with R,
+so this extension adopts the same style as used in Jinja LaTeX.
+
+Default file associations: `.r.j2`, and `.r.jinja2`.
+
 ### Jinja Shell Scripts
 
 Jinja shell/bash/zsh templates: system name `jinja-shell`.

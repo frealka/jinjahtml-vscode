@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section{Jinja2 with LaTeX}
+
+((# # This is a Jinja2 comment #))
+
+\section{Variables}
+
+Let's define some variables:
+
+((# name = "John Doe" #))
+((# age = 25 #))
+((# country = "USA" #))
+
+My name is ((( name ))) and I am ((( age ))) years old. I am from ((( country ))).
+
+
+\section{Loops}
+
+Let's iterate over a list of numbers:
+
+((* with numbers = [1, 2, 3, 4, 5] *))
+The numbers are:
+\begin{itemize}
+    ((* for number in numbers *))
+    \item ((( number )))
+    ((* endfor *))
+\end{itemize}
+((* endwith *))
+
+
+\section{Conditional Statements}
+
+Let's use a conditional statement:
+
+((# temperature = 25 #))
+
+The temperature is ((( temperature ))) degrees Celsius.
+
+((* if temperature > 30 *))
+It's hot outside.
+((* elif temperature < 10 *))
+It's cold outside.
+((* else *))
+The weather is pleasant.
+((* endif *))
+
+
+\section{Mathematical Expressions}
+
+Let's perform some mathematical calculations:
+
+((# a = 5 #))
+((# b = 3 #))
+
+The sum of ((( a ))) and ((( b ))) is ((( a + b ))).
+The product of ((( a ))) and ((( b ))) is ((( a * b ))).
+The square root of ((( a ))) is ((( a ** 0.5 ))).
+
+\end{document}
