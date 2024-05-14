@@ -3,8 +3,8 @@
   "displayName": "Better Jinja",
   "description": "Syntax highlighting for jinja(2) including HTML, Markdown, YAML, Ruby and LaTeX templates",
   "version": "0.21.0",
-  "publisher": "samuelcolvin",
-  "author": "Samuel Colvin",
+  "publisher": "agatazdunek",
+  "author": "Agata  Zdunek",
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/samuelcolvin/jinjahtml-vscode.git"
+    "url": "https://github.com/frealka/jinjahtml-vscode.git"
   },
   "main": "./src/extension.js",
   "scripts": {
@@ -232,7 +232,7 @@
           ".latex.jinja2",
           ".tex.jinja2"
         ],
-        "configuration": "./language-configuration-latex.json"
+        "configuration": "./language-configuration-2.json"
       },
       {
         "id": "jinja-lua",
@@ -275,7 +275,7 @@
           ".r.j2",
           ".r.jinja2"
         ],
-        "configuration": "./language-configuration-latex.json"
+        "configuration": "./language-configuration-2.json"
       },
       {
         "id": "jinja-shell",
